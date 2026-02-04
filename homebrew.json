@@ -80,7 +80,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Yeemik.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Yeemik.png"
     },
     {
       "name": "Klarg",
@@ -173,7 +173,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Klarg.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Klarg.png"
     },
     {
       "name": "Ripper",
@@ -234,7 +234,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Ripper.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Ripper.png"
     },
     {
       "name": "Party Token",
@@ -265,7 +265,7 @@
       "cha": 10,
       "cr": "0",
       "passive": 10,
-      "tokenUrl": "images/Party_Token.webp"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Party_Token.webp"
     },
     {
       "name": "Gundren Rockseeker",
@@ -296,7 +296,7 @@
       "cha": 10,
       "cr": "0",
       "passive": 10,
-      "tokenUrl": "images/Gundren_Rockseeker.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Gundren_Rockseeker.png"
     },
     {
       "name": "Sildar Hallwinter",
@@ -366,7 +366,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Sildar_Hallwinter.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Sildar_Hallwinter.png"
     },
     {
       "name": "Goblin",
@@ -433,7 +433,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Goblin.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Goblin.png"
     },
     {
       "name": "Scout",
@@ -504,7 +504,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Scout.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Scout.png"
     },
     {
       "name": "Barkeeper",
@@ -552,7 +552,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Barkeeper.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Barkeeper.png"
     },
     {
       "name": "Thug",
@@ -623,7 +623,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Thug.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Thug.png"
     },
     {
       "name": "Commoner",
@@ -671,7 +671,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Commoner.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Commoner.png"
     },
     {
       "name": "Bandit",
@@ -728,7 +728,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Bandit.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Bandit.png"
     },
     {
       "name": "Wolf",
@@ -789,7 +789,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Wolf.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Wolf.png"
     },
     {
       "name": "Imp",
@@ -875,7 +875,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Imp.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Imp.png"
     },
     {
       "name": "Mutated Chick",
@@ -916,7 +916,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Mutated_Chick.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Mutated_Chick.png"
     },
     {
       "name": "Chicken Abomination",
@@ -967,7 +967,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Chicken_Abomination.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Chicken_Abomination.png"
     },
     {
       "name": "Chickzilla",
@@ -1026,7 +1026,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Chickzilla.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Chickzilla.png"
     },
     {
       "name": "Mutated Hen",
@@ -1074,7 +1074,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Mutated_Hen.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Mutated_Hen.png"
     },
     {
       "name": "Mutated Rooster",
@@ -1126,7 +1126,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Mutated_Rooster.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Mutated_Rooster.png"
     },
     {
       "name": "Rooster King",
@@ -1198,7 +1198,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Rooster_King.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Rooster_King.png"
     },
     {
       "name": "Farmer Bertus",
@@ -1229,7 +1229,7 @@
       "cha": 10,
       "cr": "0",
       "passive": 10,
-      "tokenUrl": "images/Farmer_Bertus.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Farmer_Bertus.png"
     },
     {
       "name": "Solarion",
@@ -1344,7 +1344,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Solarion.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Solarion.png"
     },
     {
       "name": "Swarm of Rats",
@@ -1418,7 +1418,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Swarm_of_Rats.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Swarm_of_Rats.png"
     },
     {
       "name": "Sir Swish, of the Crystal Goblet",
@@ -1496,7 +1496,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Sir_Swish,_of_the_Crystal_Goblet.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Sir_Swish,_of_the_Crystal_Goblet.png"
     },
     {
       "name": "The Scarlet Knight",
@@ -1562,7 +1562,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/The_Scarlet_Knight.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/The_Scarlet_Knight.png"
     },
     {
       "name": "The Golden Knight",
@@ -1628,7 +1628,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/The_Golden_Knight.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/The_Golden_Knight.png"
     },
     {
       "name": "The Azure Knight",
@@ -1694,7 +1694,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/The_Azure_Knight.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/The_Azure_Knight.png"
     },
     {
       "name": "Azmora the Coldhearted",
@@ -1798,7 +1798,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Azmora_the_Coldhearted.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Azmora_the_Coldhearted.png"
     },
     {
       "name": "Snow Servant",
@@ -1855,7 +1855,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Snow_Servant.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Snow_Servant.png"
     },
     {
       "name": "Frosted Footstool",
@@ -1925,7 +1925,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Frosted_Footstool.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Frosted_Footstool.png"
     },
     {
       "name": "Sentient Scarf",
@@ -2006,7 +2006,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Sentient_Scarf.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Sentient_Scarf.png"
     },
     {
       "name": "Sentient Scarf",
@@ -2087,7 +2087,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Sentient_Scarf.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Sentient_Scarf.png"
     },
     {
       "name": "Chilldrawer",
@@ -2165,7 +2165,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Chilldrawer.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Chilldrawer.png"
     },
     {
       "name": "Chilldrawer",
@@ -2243,7 +2243,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Chilldrawer.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Chilldrawer.png"
     },
     {
       "name": "Hangerling",
@@ -2294,7 +2294,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Hangerling.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Hangerling.png"
     },
     {
       "name": "Coat Rack Centipede",
@@ -2346,7 +2346,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Coat_Rack_Centipede.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Coat_Rack_Centipede.png"
     },
     {
       "name": "Mittens of Muffled Mischief",
@@ -2409,7 +2409,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Mittens_of_Muffled_Mischief.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Mittens_of_Muffled_Mischief.png"
     },
     {
       "name": "Mittens of Muffled Mischief",
@@ -2472,7 +2472,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Mittens_of_Muffled_Mischief.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Mittens_of_Muffled_Mischief.png"
     },
     {
       "name": "Sock Wraith",
@@ -2547,7 +2547,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Sock_Wraith.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Sock_Wraith.png"
     },
     {
       "name": "Sock Wraith",
@@ -2622,7 +2622,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Sock_Wraith.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Sock_Wraith.png"
     },
     {
       "name": "The Ice Iron",
@@ -2700,7 +2700,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/The_Ice_Iron.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/The_Ice_Iron.png"
     },
     {
       "name": "Baron Caskworth, the Short of Temper",
@@ -2778,7 +2778,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Baron_Caskworth,_the_Short_of_Temper.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Baron_Caskworth,_the_Short_of_Temper.png"
     },
     {
       "name": "Lord Hopsforth, the Frothy-Fingered",
@@ -2856,7 +2856,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Lord_Hopsforth,_the_Frothy-Fingered.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Lord_Hopsforth,_the_Frothy-Fingered.png"
     },
     {
       "name": "Viscount Marrow, of the Martini Chalice",
@@ -2934,7 +2934,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Viscount_Marrow,_of_the_Martini_Chalice.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Viscount_Marrow,_of_the_Martini_Chalice.png"
     },
     {
       "name": "Queen Aethelred",
@@ -2965,7 +2965,7 @@
       "cha": 10,
       "cr": "0",
       "passive": 10,
-      "tokenUrl": "images/Queen_Aethelred.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Queen_Aethelred.png"
     },
     {
       "name": "Static Light Swordsman",
@@ -3024,7 +3024,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Static_Light_Swordsman.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Static_Light_Swordsman.png"
     },
     {
       "name": "Static Light Bowman",
@@ -3089,7 +3089,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Static_Light_Bowman.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Static_Light_Bowman.png"
     },
     {
       "name": "Static Light Battlecaster",
@@ -3150,7 +3150,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Static_Light_Battlecaster.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Static_Light_Battlecaster.png"
     },
     {
       "name": "Static Light Spearman",
@@ -3209,7 +3209,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Static_Light_Spearman.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Static_Light_Spearman.png"
     },
     {
       "name": "Static Light Bannerbearer",
@@ -3269,7 +3269,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Static_Light_Bannerbearer.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Static_Light_Bannerbearer.png"
     },
     {
       "name": "Static Light Healer",
@@ -3329,7 +3329,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Static_Light_Healer.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Static_Light_Healer.png"
     },
     {
       "name": "Skeletal Swordsman",
@@ -3393,7 +3393,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Skeletal_Swordsman.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Skeletal_Swordsman.png"
     },
     {
       "name": "Skeletal Bowman",
@@ -3459,7 +3459,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Skeletal_Bowman.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Skeletal_Bowman.png"
     },
     {
       "name": "Skeletal Spearman",
@@ -3523,7 +3523,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Skeletal_Spearman.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Skeletal_Spearman.png"
     },
     {
       "name": "Skeletal Battlecaster",
@@ -3600,7 +3600,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Skeletal_Battlecaster.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Skeletal_Battlecaster.png"
     },
     {
       "name": "Skeletal Bannerbearer",
@@ -3669,7 +3669,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Skeletal_Bannerbearer.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Skeletal_Bannerbearer.png"
     },
     {
       "name": "Skeletal Healer",
@@ -3737,7 +3737,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Skeletal_Healer.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Skeletal_Healer.png"
     },
     {
       "name": "Grrarrg the Soft-Fisted",
@@ -3843,7 +3843,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Grrarrg_the_Soft-Fisted.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Grrarrg_the_Soft-Fisted.png"
     },
     {
       "name": "Gurglor the Moist",
@@ -3942,7 +3942,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Gurglor_the_Moist.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Gurglor_the_Moist.png"
     },
     {
       "name": "Sir Clatterton",
@@ -4032,7 +4032,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Sir_Clatterton.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Sir_Clatterton.png"
     },
     {
       "name": "Miss Deme Anor",
@@ -4114,7 +4114,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Miss_Deme_Anor.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Miss_Deme_Anor.png"
     },
     {
       "name": "Twice-Wrong",
@@ -4208,7 +4208,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Twice-Wrong.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Twice-Wrong.png"
     },
     {
       "name": "Tophat 1",
@@ -4279,7 +4279,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Tophat_1.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Tophat_1.png"
     },
     {
       "name": "Tophat 2",
@@ -4350,7 +4350,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Tophat_2.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Tophat_2.png"
     },
     {
       "name": "Tophat 3",
@@ -4421,7 +4421,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Tophat_3.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Tophat_3.png"
     },
     {
       "name": "Tophat 4",
@@ -4492,7 +4492,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Tophat_4.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Tophat_4.png"
     },
     {
       "name": "Sir Splintwood",
@@ -4559,7 +4559,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Sir_Splintwood.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Sir_Splintwood.png"
     },
     {
       "name": "Miss Twigatha",
@@ -4624,7 +4624,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Miss_Twigatha.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Miss_Twigatha.png"
     },
     {
       "name": "Chucklewood",
@@ -4685,7 +4685,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Chucklewood.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Chucklewood.png"
     },
     {
       "name": "Gramble the Gnarled",
@@ -4750,7 +4750,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Gramble_the_Gnarled.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Gramble_the_Gnarled.png"
     },
     {
       "name": "Frog",
@@ -4800,7 +4800,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Frog.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Frog.png"
     },
     {
       "name": "The Clucking Chaos",
@@ -4904,7 +4904,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/The_Clucking_Chaos.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/The_Clucking_Chaos.png"
     },
     {
       "name": "Arcane Lightning Cannon",
@@ -4985,7 +4985,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Arcane_Lightning_Cannon.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Arcane_Lightning_Cannon.png"
     },
     {
       "name": "Shield of Illusory Protection",
@@ -5071,7 +5071,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Shield_of_Illusory_Protection.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Shield_of_Illusory_Protection.png"
     },
     {
       "name": "The Flatulence Grenades (x3)",
@@ -5155,7 +5155,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/The_Flatulence_Grenades_(x3).png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/The_Flatulence_Grenades_(x3).png"
     },
     {
       "name": "Brown Bear",
@@ -5219,7 +5219,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Brown_Bear.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Brown_Bear.png"
     },
     {
       "name": "Dire Wolf",
@@ -5280,7 +5280,7 @@
           ]
         }
       ],
-      "tokenUrl": "images/Dire_Wolf.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Dire_Wolf.png"
     },
     {
       "name": "Smiles posed",
@@ -5311,7 +5311,7 @@
       "cha": 10,
       "cr": "0",
       "passive": 10,
-      "tokenUrl": "images/Smiles_posed.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Smiles_posed.png"
     },
     {
       "name": "Mourning Glory",
@@ -5359,7 +5359,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Mourning_Glory.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Mourning_Glory.png"
     },
     {
       "name": "Commoner",
@@ -5410,7 +5410,7 @@
           "entries": []
         }
       ],
-      "tokenUrl": "images/Commoner.png"
+      "tokenUrl": "https://4a6f62.github.io/roll20-plutonium-homebrew/images/Commoner.png"
     }
   ]
 }
