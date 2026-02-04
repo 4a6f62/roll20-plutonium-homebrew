@@ -1,0 +1,5416 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "Roll20Import",
+        "abbreviation": "R20",
+        "full": "Roll20 Import: 4a6f62 FF",
+        "version": "1.0.0",
+        "url": "",
+        "authors": [
+          "Roll20 Campaign"
+        ],
+        "convertedBy": [
+          "roll20-to-plutonium.py"
+        ]
+      }
+    ]
+  },
+  "monster": [
+    {
+      "name": "Yeemik",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "S"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "goblinoid"
+        ]
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "leather armor, shield"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 27,
+        "formula": "6d6+6"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 8,
+      "dex": 14,
+      "con": 10,
+      "int": 10,
+      "wis": 14,
+      "cha": 8,
+      "cr": "1/4",
+      "passive": 12,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 9"
+      ],
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "trait": [
+        {
+          "name": "Nimble Escape",
+          "entries": [
+            "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Redirect Attack",
+          "entries": [
+            "When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Yeemik.png"
+    },
+    {
+      "name": "Klarg",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "goblinoid"
+        ]
+      },
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "hide armor, shield"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 5,
+        "formula": "5d8+5"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 15,
+      "dex": 14,
+      "con": 13,
+      "int": 8,
+      "wis": 11,
+      "cha": 9,
+      "cr": "1",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "trait": [
+        {
+          "name": "Brute",
+          "entries": [
+            "A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+          ]
+        },
+        {
+          "name": "Surprise Attack",
+          "entries": [
+            "If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Morningstar",
+          "entries": []
+        },
+        {
+          "name": "Javelin",
+          "entries": []
+        },
+        {
+          "name": "Javelin",
+          "entries": []
+        },
+        {
+          "name": "Ripper, fetch!",
+          "entries": []
+        },
+        {
+          "name": "Turn Tail and Run",
+          "entries": []
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Welcome to Klarg",
+          "entries": [
+            "When an enemy enters melee range, try to headbutt them. Hit 2 bludgeoning damage."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Klarg.png"
+    },
+    {
+      "name": "Ripper",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "beast",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "2d8+2"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 12,
+      "dex": 15,
+      "con": 12,
+      "int": 3,
+      "wis": 12,
+      "cha": 6,
+      "cr": "1/4",
+      "passive": 11,
+      "senses": [
+        "passive perception 13"
+      ],
+      "trait": [
+        {
+          "name": "Keen Hearing and Smell",
+          "entries": [
+            "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+          ]
+        },
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "entries": [
+            "If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone"
+          ]
+        }
+      ],
+      "tokenUrl": "images/Ripper.png"
+    },
+    {
+      "name": "Party Token",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "2d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "0",
+      "passive": 10,
+      "tokenUrl": "images/Party_Token.webp"
+    },
+    {
+      "name": "Gundren Rockseeker",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "2d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "0",
+      "passive": 10,
+      "tokenUrl": "images/Gundren_Rockseeker.png"
+    },
+    {
+      "name": "Sildar Hallwinter",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "human",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "chain mail"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 27,
+        "formula": "5d8 + 5"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 10,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 10,
+      "cr": "0",
+      "passive": 10,
+      "senses": [
+        "passive perception 12"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Sildar makes two Longsword attacks."
+          ]
+        },
+        {
+          "name": "Heavy Crossbow",
+          "entries": []
+        },
+        {
+          "name": "Longsword (One-Handed)",
+          "entries": []
+        },
+        {
+          "name": "Longsword +3 (Two-Handed)",
+          "entries": []
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Parry",
+          "entries": [
+            "When an attacker Sildar can see would hit him with a melee attack, he can roll a d6 and add the number rolled to his AC against the triggering attack, provided he's wielding a melee weapon."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Sildar_Hallwinter.png"
+    },
+    {
+      "name": "Goblin",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "S"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "goblinoid"
+        ]
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "leather armor, shield"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 0,
+        "formula": "2d6"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 8,
+      "dex": 14,
+      "con": 10,
+      "int": 10,
+      "wis": 8,
+      "cha": 8,
+      "cr": "1/4",
+      "passive": 9,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 9"
+      ],
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "trait": [
+        {
+          "name": "Nimble Escape",
+          "entries": [
+            "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Scimitar",
+          "entries": []
+        },
+        {
+          "name": "Shortbow",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Goblin.png"
+    },
+    {
+      "name": "Scout",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "leather armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "3d8+3"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 11,
+      "wis": 13,
+      "cha": 11,
+      "cr": "1/2",
+      "passive": 11,
+      "senses": [
+        "passive perception 15"
+      ],
+      "languages": [
+        "Any One Language (Usually Common)"
+      ],
+      "trait": [
+        {
+          "name": "Keen Hearing and Sight",
+          "entries": [
+            "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The scout makes two melee attacks or two ranged attacks."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": []
+        },
+        {
+          "name": "Longbow",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Scout.png"
+    },
+    {
+      "name": "Barkeeper",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "1d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "0",
+      "passive": 10,
+      "senses": [
+        "passive perception 10"
+      ],
+      "languages": [
+        "Any One Language (Usually Common)"
+      ],
+      "action": [
+        {
+          "name": "Club",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Barkeeper.png"
+    },
+    {
+      "name": "Thug",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 11,
+          "from": [
+            "leather armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "5d8+10"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 15,
+      "dex": 11,
+      "con": 14,
+      "int": 10,
+      "wis": 10,
+      "cha": 11,
+      "cr": "1/2",
+      "passive": 10,
+      "senses": [
+        "passive perception 10"
+      ],
+      "languages": [
+        "Any One Language (Usually Common)"
+      ],
+      "trait": [
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The thug makes two melee attacks."
+          ]
+        },
+        {
+          "name": "Mace",
+          "entries": []
+        },
+        {
+          "name": "Heavy Crossbow",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Thug.png"
+    },
+    {
+      "name": "Commoner",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "1d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "0",
+      "passive": 10,
+      "senses": [
+        "passive perception 10"
+      ],
+      "languages": [
+        "Any One Language (Usually Common)"
+      ],
+      "action": [
+        {
+          "name": "Club",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Commoner.png"
+    },
+    {
+      "name": "Bandit",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "leather armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "2d8+2"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "1/8",
+      "passive": 10,
+      "senses": [
+        "passive perception 10"
+      ],
+      "languages": [
+        "Any One Language (Usually Common)"
+      ],
+      "action": [
+        {
+          "name": "Scimitar",
+          "entries": []
+        },
+        {
+          "name": "Light Crossbow",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Bandit.png"
+    },
+    {
+      "name": "Wolf",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "beast",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "2d8+2"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 12,
+      "dex": 15,
+      "con": 12,
+      "int": 3,
+      "wis": 12,
+      "cha": 6,
+      "cr": "1/4",
+      "passive": 11,
+      "senses": [
+        "passive perception 13"
+      ],
+      "trait": [
+        {
+          "name": "Keen Hearing and Smell",
+          "entries": [
+            "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+          ]
+        },
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "entries": [
+            "If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone"
+          ]
+        }
+      ],
+      "tokenUrl": "images/Wolf.png"
+    },
+    {
+      "name": "Imp",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "T"
+      ],
+      "type": "fiend (devil",
+      "alignment": [
+        "S"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "3d4+3"
+      },
+      "speed": {
+        "walk": 20,
+        "fly": 40
+      },
+      "str": 6,
+      "dex": 17,
+      "con": 13,
+      "int": 11,
+      "wis": 12,
+      "cha": 14,
+      "cr": "1",
+      "passive": 11,
+      "senses": [
+        "darkvision 120 ft.",
+        "passive perception 11"
+      ],
+      "languages": [
+        "Infernal",
+        "Common"
+      ],
+      "immune": [
+        "Fire",
+        "Poison"
+      ],
+      "resist": [
+        "Cold; Bludgeoning",
+        "Piercing",
+        "and Slashing From Nonmagical Attacks That Aren't Silvered"
+      ],
+      "conditionImmune": [
+        "Poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Shapechanger",
+          "entries": [
+            "The imp can use its action to polymorph into a beast form that resembles a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb 20 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        },
+        {
+          "name": "Devil's Sight",
+          "entries": [
+            "Magical darkness doesn't impede the imp's darkvision."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The imp has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Sting (Bite in Beast Form)",
+          "entries": [
+            "The target must make a DC 11 Constitution saving throw, taking the poison damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Invisibility",
+          "entries": [
+            "The imp magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Imp.png"
+    },
+    {
+      "name": "Mutated Chick",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        11
+      ],
+      "hp": {
+        "average": 19,
+        "formula": "3d8+6"
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 14,
+      "dex": 12,
+      "con": 12,
+      "int": 2,
+      "wis": 10,
+      "cha": 5,
+      "cr": "0",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "action": [
+        {
+          "name": "Beak",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Mutated_Chick.png"
+    },
+    {
+      "name": "Chicken Abomination",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "H"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 0,
+        "formula": "7d10+21"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 20,
+      "dex": 12,
+      "con": 17,
+      "int": 3,
+      "wis": 12,
+      "cha": 7,
+      "cr": "0",
+      "passive": 11,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 13"
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The abomination makes two attacks: one with its beak and one with its claws."
+          ]
+        },
+        {
+          "name": "Beak",
+          "entries": []
+        },
+        {
+          "name": "Claws",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Chicken_Abomination.png"
+    },
+    {
+      "name": "Chickzilla",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "G"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 136,
+        "formula": "13d12+52"
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 25,
+      "dex": 10,
+      "con": 19,
+      "int": 2,
+      "wis": 12,
+      "cha": 9,
+      "cr": "0",
+      "passive": 11,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 14"
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Chickzilla makes two attacks: one with its bite and one with its tail. It cannot use both on the same target."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "If the target is Medium or smaller, it is grappled (escape DC 17)."
+          ]
+        },
+        {
+          "name": "Tail",
+          "entries": []
+        },
+        {
+          "name": "Nuclear Breath (Recharge 5-6)",
+          "entries": [
+            "Chickzilla unleashes a massive beam of fiery energy in a 60-foot cone. Each creature in the area must make a DC 18 Dexterity saving throw.\n\nOn a failed save, a creature takes [[16d6]] fire and radiant damage and is blinded until the end of its next turn.\n\nOn a successful save, a creature takes half damage and isn't blinded."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Chickzilla.png"
+    },
+    {
+      "name": "Mutated Hen",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "average": 18,
+        "formula": "5d6+10"
+      },
+      "speed": {
+        "walk": 20,
+        "fly": 40
+      },
+      "str": 6,
+      "dex": 14,
+      "con": 14,
+      "int": 2,
+      "wis": 13,
+      "cha": 5,
+      "cr": "0",
+      "passive": 11,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 11"
+      ],
+      "action": [
+        {
+          "name": "Peck",
+          "entries": []
+        },
+        {
+          "name": "Terrifying Screech",
+          "entries": [
+            "Each creature within 15 feet must make a DC 13 Wisdom saving throw or be frightened until the end of their next turn."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Mutated_Hen.png"
+    },
+    {
+      "name": "Mutated Rooster",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 51,
+        "formula": "6d10+18"
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 20
+      },
+      "str": 15,
+      "dex": 16,
+      "con": 14,
+      "int": 4,
+      "wis": 12,
+      "cha": 6,
+      "cr": "0",
+      "passive": 11,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 13"
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The rooster makes three attacks: one with its bite and two with its claws."
+          ]
+        },
+        {
+          "name": "Peck",
+          "entries": []
+        },
+        {
+          "name": "Claw",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Mutated_Rooster.png"
+    },
+    {
+      "name": "Rooster King",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "H"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        16
+      ],
+      "hp": {
+        "average": 120,
+        "formula": "11d12+44"
+      },
+      "speed": {
+        "walk": 40,
+        "fly": 40
+      },
+      "str": 29,
+      "dex": 14,
+      "con": 18,
+      "int": 8,
+      "wis": 14,
+      "cha": 12,
+      "cr": "0",
+      "passive": 12,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 14"
+      ],
+      "trait": [
+        {
+          "name": "Regeneration",
+          "entries": [
+            "The Rooster King regains 10 HP at the start of its turn if it has at least 1 HP."
+          ]
+        },
+        {
+          "name": "Cacophony Aura",
+          "entries": [
+            "All allied mutated poultry within 30 feet of the Rooster King gain +10 to their attack rolls."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Rooster King makes three attacks: one with its beak and two with its talons."
+          ]
+        },
+        {
+          "name": "Beak",
+          "entries": []
+        },
+        {
+          "name": "Talons",
+          "entries": []
+        },
+        {
+          "name": "Devour Lesser",
+          "entries": [
+            "The Rooster King can consume a Mutated Chick or Hen within 5 feet, regaining HP equal to the creature’s max HP."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Rooster_King.png"
+    },
+    {
+      "name": "Farmer Bertus",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "2d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "0",
+      "passive": 10,
+      "tokenUrl": "images/Farmer_Bertus.png"
+    },
+    {
+      "name": "Solarion",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human?"
+        ]
+      },
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "shining plate"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 105,
+        "formula": "2d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 12,
+      "con": 16,
+      "int": 10,
+      "wis": 14,
+      "cha": 20,
+      "cr": "0",
+      "passive": 12,
+      "senses": [
+        "passive perception 12"
+      ],
+      "languages": [
+        "Common",
+        "Celestial",
+        "\"Epic Monologue\""
+      ],
+      "resist": [
+        "Radiant",
+        "Fire (from \"Holy Flame of the Dawnforge\")"
+      ],
+      "conditionImmune": [
+        "Charmed (he’s too noble)",
+        "Frightened (obviously)"
+      ],
+      "trait": [
+        {
+          "name": "Aura of Heroism (Radiant, 10 ft.)",
+          "entries": [
+            "Allies in range gain +1d4 to saving throws and can’t be frightened."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Blinding Brilliance (Recharge 5–6)",
+          "entries": [
+            "Solarion releases a pulse of light; all creatures within 20 ft. must succeed on a DC 16 Con save or be blinded for 1 minute. Creatures blinded may repeat the save at end of their turns."
+          ]
+        },
+        {
+          "name": "Channel Valor (1/day)",
+          "entries": [
+            "Restores 20 HP to all allies within 30 ft. and ends one condition (charmed, frightened, poisoned)."
+          ]
+        },
+        {
+          "name": "Dawndriven Blade",
+          "entries": [
+            "On a nat 20, it erupts in a blinding sunburst (DC 14 Dex save or be knocked prone)."
+          ]
+        },
+        {
+          "name": "Heroic Leap",
+          "entries": []
+        },
+        {
+          "name": "Sunlight Reigns Supreme!",
+          "entries": []
+        },
+        {
+          "name": "Divine Smite",
+          "entries": [
+            "When Solarion hits with a melee weapon attack, he can expend a spell slot to deal additional radiant damage:\n1st level: +2d8\n2nd level: +3d8\n3rd level: +4d8\n(+1d8 if undead or fiend)"
+          ]
+        },
+        {
+          "name": "Divine Smite 1st level",
+          "entries": []
+        },
+        {
+          "name": "Divine Smite 2nd level",
+          "entries": []
+        },
+        {
+          "name": "Divine Smite 3rd level",
+          "entries": []
+        },
+        {
+          "name": "If undead or fiend",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Solarion.png"
+    },
+    {
+      "name": "Swarm of Rats",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "swarm of tiny beasts",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "7d8-7"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 11,
+      "con": 9,
+      "int": 2,
+      "wis": 10,
+      "cha": 3,
+      "cr": "1/4",
+      "passive": 10,
+      "senses": [
+        "darkvision 30 ft.",
+        "passive perception 10"
+      ],
+      "resist": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Frightened",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Prone",
+        "Restrained",
+        "Stunned"
+      ],
+      "trait": [
+        {
+          "name": "Keen Smell",
+          "entries": [
+            "The swarm has advantage on Wisdom (Perception) checks that rely on smell."
+          ]
+        },
+        {
+          "name": "Swarm",
+          "entries": [
+            "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bites (swarm has more than half HP)",
+          "entries": []
+        },
+        {
+          "name": "Bites (swarm has half HP or less)",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Swarm_of_Rats.png"
+    },
+    {
+      "name": "Sir Swish, of the Crystal Goblet",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "5d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 14,
+      "con": 10,
+      "int": 6,
+      "wis": 10,
+      "cha": 1012,
+      "cr": "0",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "Common (with posh accent)",
+        "Skeletal Toasts"
+      ],
+      "resist": [
+        "Piercing",
+        "Slashing (non-magical)"
+      ],
+      "vulnerable": [
+        "Bludgeoning"
+      ],
+      "conditionImmune": [
+        "Poison",
+        "Exhaustion"
+      ],
+      "trait": [
+        {
+          "name": "Undead Fortitude",
+          "entries": [
+            "If damage reduces the skeleton to 0 HP, it makes a CON saving throw (DC 5 + damage taken). On a success, it drops to 1 HP instead. Doesn’t work if radiant damage or a critical hit finishes it."
+          ]
+        },
+        {
+          "name": "Drunken Swagger",
+          "entries": [
+            " Roll d6([[d6]]) at start of turn.\n1: falls prone.\n6: advantage on melee attacks this turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Blinding Refraction (1/short rest)",
+          "entries": [
+            "Sir Swish raises his crystal goblet dramatically. Sunlight (or any light source) refracts and flares. Each creature in a 15 ft. cone must make a DC 13 CON save or be blinded until the end of their next turn."
+          ]
+        },
+        {
+          "name": "Goblet Jab",
+          "entries": [
+            "On a crit, the goblet cracks and deals [[2d4]] radiant instead."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Sir_Swish,_of_the_Crystal_Goblet.png"
+    },
+    {
+      "name": "The Scarlet Knight",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "stitched leather armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 33,
+        "formula": "6d8 + 6"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 14,
+      "cha": 14,
+      "cr": "1/2",
+      "passive": 12,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 14"
+      ],
+      "languages": [
+        "common"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "trait": [
+        {
+          "name": "Stitched Construct",
+          "entries": [
+            "Doesn't require air, food, drink, or sleep."
+          ]
+        },
+        {
+          "name": "Judging Eye",
+          "entries": [
+            "Can use Wisdom (Perception) or Charisma (Deception) to evaluate a creature's \"sartorial suitability.\""
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Pin-Needle Sword",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/The_Scarlet_Knight.png"
+    },
+    {
+      "name": "The Golden Knight",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "brocade plating"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "6d8 + 12"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 10,
+      "con": 14,
+      "int": 8,
+      "wis": 10,
+      "cha": 10,
+      "cr": "0",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "trait": [
+        {
+          "name": "Stitched Construct",
+          "entries": [
+            "Doesn't require air, food, drink, or sleep."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Measuring-Spear",
+          "entries": []
+        },
+        {
+          "name": "Tangled Tape",
+          "entries": [
+            "If the Golden Knight hits a creature with its Measuring-Spear, it can attempt to grapple the creature as a bonus action (Escape DC 12). While grappled in this way, the target's speed is 0."
+          ]
+        }
+      ],
+      "tokenUrl": "images/The_Golden_Knight.png"
+    },
+    {
+      "name": "The Azure Knight",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "silk and light padding"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "6d8 + 6"
+      },
+      "speed": {
+        "walk": 35
+      },
+      "str": 12,
+      "dex": 16,
+      "con": 12,
+      "int": 10,
+      "wis": 12,
+      "cha": 10,
+      "cr": "0",
+      "passive": 11,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 11"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "trait": [
+        {
+          "name": "Stitched Construct",
+          "entries": [
+            "Doesn't require air, food, drink, or sleep."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Thimble-Warhammer",
+          "entries": []
+        },
+        {
+          "name": "Unraveling Strike",
+          "entries": [
+            "When the Azure Knight hits a creature with its Warhammer, the target's AC is reduced by 1 until the start of the knights next turn (minimum AC 10). This effect can stack, reducing AC by up to 3."
+          ]
+        }
+      ],
+      "tokenUrl": "images/The_Azure_Knight.png"
+    },
+    {
+      "name": "Azmora the Coldhearted",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "ice armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 59,
+        "formula": "10d8 + 10"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 12,
+      "con": 12,
+      "int": 16,
+      "wis": 10,
+      "cha": 14,
+      "cr": "3",
+      "passive": 12,
+      "senses": [
+        "passive perception 12"
+      ],
+      "languages": [
+        "Common",
+        "Primordial"
+      ],
+      "resist": [
+        "Cold"
+      ],
+      "vulnerable": [
+        "Piercing"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Frightened"
+      ],
+      "trait": [
+        {
+          "name": "Frozen Aura",
+          "entries": [
+            "Within 5 feet of Azmora, the temperature drops. Any hostile creature that starts its turn in this area must make a DC 11 Constitution saving throw. On a failed save, the creature takes [[1d4]] cold damage and its speed is reduced by 5 feet until the start of its next turn."
+          ]
+        },
+        {
+          "name": "Winter's Chill",
+          "entries": [
+            "Whenever a creature hits Azmora with a melee attack, it takes [[1]] cold damage from her chilling presence."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Azmora makes two attacks with her Frozen Blade."
+          ]
+        },
+        {
+          "name": "Move",
+          "entries": []
+        },
+        {
+          "name": "Chilling Gaze",
+          "entries": []
+        },
+        {
+          "name": "Summon Shard (Costs 2 Actions)",
+          "entries": []
+        },
+        {
+          "name": "Blizzard Wrath. (Recharge 6, Cooldown 3 turns)",
+          "entries": [
+            "Azmora conjures a localized flurry of snow in a 15-foot radius centered on a point she can see within 60 feet. Each creature in the area must make a DC 12 Dexterity saving throw. On a failed save, a creature takes [[1d6]] cold damage and has disadvantage on attack rolls until the start of its next turn. On a successful save, a creature takes half as much damage and suffers no other effects."
+          ]
+        },
+        {
+          "name": "Frozen Blade",
+          "entries": [
+            "Azmora wields a blade of ice."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Azmora_the_Coldhearted.png"
+    },
+    {
+      "name": "Snow Servant",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "S"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 5,
+        "formula": "3d6 + 3"
+      },
+      "speed": {
+        "walk": 20
+      },
+      "str": 14,
+      "dex": 6,
+      "con": 12,
+      "int": 2,
+      "wis": 5,
+      "cha": 2,
+      "cr": "1/4",
+      "passive": 7,
+      "senses": [
+        "blindsight 30 ft.",
+        "passive perception 7"
+      ],
+      "resist": [
+        "Cold"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned"
+      ],
+      "action": [
+        {
+          "name": "Slam",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Snow_Servant.png"
+    },
+    {
+      "name": "Frosted Footstool",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "T"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "2d4"
+      },
+      "speed": {
+        "walk": 5
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 1,
+      "wis": 5,
+      "cha": 1,
+      "cr": "1/8",
+      "passive": 7,
+      "senses": [
+        "blindsight 30 ft. (blind beyond this radius)",
+        "passive perception 7"
+      ],
+      "resist": [
+        "Bludgeoning",
+        "Piercing",
+        "and Slashing from nonmagical attacks"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Grappled",
+        "Prone",
+        "Restrained"
+      ],
+      "trait": [
+        {
+          "name": "Rime-Covered",
+          "entries": [
+            "A Frosted Footstool is immune to bludgeoning, piercing, and slashing damage from nonmagical attacks, unless the attack is made with a heavy weapon or by a creature with a Strength score of 15 or higher."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Excuse You!",
+          "entries": [
+            "If a Frosted Footstool is picked up by a creature, it politely utters \"Excuse you!\" in a tiny voice and vanishes in a puff of shimmering powder."
+          ]
+        },
+        {
+          "name": "Trip Hazard",
+          "entries": [
+            "The Frosted Footstool attempts to slide under a creature's feet. One creature within 5 feet must succeed on a DC 10 Dexterity saving throw or fall prone."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Frosted_Footstool.png"
+    },
+    {
+      "name": "Sentient Scarf",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "S"
+      ],
+      "type": "construct",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        {
+          "ac": 11,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "3d4"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": 30
+      },
+      "str": 3,
+      "dex": 13,
+      "con": 10,
+      "int": 6,
+      "wis": 8,
+      "cha": 10,
+      "cr": "1/8",
+      "passive": 9,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 9"
+      ],
+      "immune": [
+        "Poison",
+        "Psychic"
+      ],
+      "vulnerable": [
+        "slashing"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+      ],
+      "trait": [
+        {
+          "name": "Flimsy",
+          "entries": [
+            "The Sentient Scarf has vulnerability to slashing damage."
+          ]
+        },
+        {
+          "name": "Fashion Critique",
+          "entries": [
+            "When a Sentient Scarf attacks, it loudly complains about the target's outfit choice, imposing disadvantage on the target's next Wisdom (Perception) check until the end of its next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Wrap Attack",
+          "entries": [
+            "The target must succeed on a DC 11 Constitution saving throw or be blinded until the end of its next turn."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Sentient_Scarf.png"
+    },
+    {
+      "name": "Sentient Scarf",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "S"
+      ],
+      "type": "construct",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        {
+          "ac": 11,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "3d4"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": 30
+      },
+      "str": 3,
+      "dex": 13,
+      "con": 10,
+      "int": 6,
+      "wis": 8,
+      "cha": 10,
+      "cr": "1/8",
+      "passive": 9,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 9"
+      ],
+      "immune": [
+        "Poison",
+        "Psychic"
+      ],
+      "vulnerable": [
+        "slashing"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+      ],
+      "trait": [
+        {
+          "name": "Flimsy",
+          "entries": [
+            "The Sentient Scarf has vulnerability to slashing damage."
+          ]
+        },
+        {
+          "name": "Fashion Critique",
+          "entries": [
+            "When a Sentient Scarf attacks, it loudly complains about the target's outfit choice, imposing disadvantage on the target's next Wisdom (Perception) check until the end of its next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Wrap Attack",
+          "entries": [
+            "The target must succeed on a DC 11 Constitution saving throw or be blinded until the end of its next turn."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Sentient_Scarf.png"
+    },
+    {
+      "name": "Chilldrawer",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 13,
+        "formula": "3d8"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": 20
+      },
+      "str": 10,
+      "dex": 8,
+      "con": 12,
+      "int": 6,
+      "wis": 10,
+      "cha": 6,
+      "cr": "1/4",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "immune": [
+        "Poison",
+        "Psychic"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+      ],
+      "trait": [
+        {
+          "name": "Tiny Arguments",
+          "entries": [
+            "Chilldrawers occasionally squabble amongst themselves in high-pitched British accents. This has no mechanical effect but can be a distraction."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Socked Numbing",
+          "entries": [
+            "The target must succeed on a DC 11 Constitution saving throw or one of its limbs (chosen by the DM) goes numb until the end of its next turn. The target has disadvantage on ability checks made using that limb."
+          ]
+        },
+        {
+          "name": "Item Snatch",
+          "entries": [
+            "The Chilldrawer attempts to suck a small, unattended object or an object held by a creature (if it weighs no more than 5 pounds) into its frosty interior. If the object is held, the creature must succeed on a DC 10 Strength (Athletics) check or the Chilldrawer pulls the item away. If successful, the item is considered stowed within the Chilldrawer. A creature can use an action to make a DC 10 Strength (Athletics) check to retrieve an item."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Chilldrawer.png"
+    },
+    {
+      "name": "Chilldrawer",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "3d8"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": 20
+      },
+      "str": 10,
+      "dex": 8,
+      "con": 12,
+      "int": 6,
+      "wis": 10,
+      "cha": 6,
+      "cr": "1/4",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "immune": [
+        "Poison",
+        "Psychic"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+      ],
+      "trait": [
+        {
+          "name": "Tiny Arguments",
+          "entries": [
+            "Chilldrawers occasionally squabble amongst themselves in high-pitched British accents. This has no mechanical effect but can be a distraction."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Socked Numbing",
+          "entries": [
+            "The target must succeed on a DC 11 Constitution saving throw or one of its limbs (chosen by the DM) goes numb until the end of its next turn. The target has disadvantage on ability checks made using that limb."
+          ]
+        },
+        {
+          "name": "Item Snatch",
+          "entries": [
+            "The Chilldrawer attempts to suck a small, unattended object or an object held by a creature (if it weighs no more than 5 pounds) into its frosty interior. If the object is held, the creature must succeed on a DC 10 Strength (Athletics) check or the Chilldrawer pulls the item away. If successful, the item is considered stowed within the Chilldrawer. A creature can use an action to make a DC 10 Strength (Athletics) check to retrieve an item."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Chilldrawer.png"
+    },
+    {
+      "name": "Hangerling",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 16,
+        "formula": "3d8 + 3"
+      },
+      "speed": {
+        "walk": 25
+      },
+      "str": 12,
+      "dex": 10,
+      "con": 12,
+      "int": 3,
+      "wis": 6,
+      "cha": 1,
+      "cr": "0",
+      "passive": 8,
+      "immune": [
+        "Poison",
+        "Psychic"
+      ],
+      "resist": [
+        "Piercing"
+      ],
+      "action": [
+        {
+          "name": "Entangling Clatter",
+          "entries": [
+            "The Hangerling attempts to grapple a weapon or a bag the target is holding. If the target is holding a weapon, it has disadvantage on attack rolls with that weapon until the grapple ends. If the target is holding a bag, it has disadvantage on movement checks until the grapple ends. The target can use an action to make a DC 11 Strength (Athletics) check, freeing the item on a success."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Hangerling.png"
+    },
+    {
+      "name": "Coat Rack Centipede",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 22,
+        "formula": "4d10"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 8,
+      "con": 10,
+      "int": 2,
+      "wis": 7,
+      "cha": 1,
+      "cr": "0",
+      "passive": 8,
+      "trait": [
+        {
+          "name": "Elevator Music",
+          "entries": [
+            "The Coat Rack Centipede constantly hums a repetitive, cheerful tune, and its coat racks click like castanets as it moves."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Coat Wrap",
+          "entries": [
+            "The target must succeed on a DC 12 Strength saving throw or become entangled in coats until the end of its next turn. While entangled, the target's speed is 0, and it has disadvantage on attack rolls."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Coat_Rack_Centipede.png"
+    },
+    {
+      "name": "Mittens of Muffled Mischief",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "T"
+      ],
+      "type": "fey",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 3,
+        "formula": "1d4 + 1"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": 25
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "1/8",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "resist": [
+        "Bludgeoning"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Grappled",
+        "Prone",
+        "Restrained"
+      ],
+      "trait": [
+        {
+          "name": "Cozy Knit",
+          "entries": [
+            "If left undisturbed for 1 minute, a Mitten of Muffled Mischief will begin to knit a small, perfectly fitted scarf for a nearby weapon or item it deems \"in need of warmth.\""
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Hand Clamp",
+          "entries": [
+            "The Mittens clamp onto one of the target's hands, grappling it (escape DC 13). While grappled, the target cannot use that hand to hold items, make unarmed strikes, or perform somatic components for spells. The Mittens move with the grappled hand."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Mittens_of_Muffled_Mischief.png"
+    },
+    {
+      "name": "Mittens of Muffled Mischief",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "T"
+      ],
+      "type": "fey",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "1d4 + 1"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": 25
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "1/8",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "resist": [
+        "Bludgeoning"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Grappled",
+        "Prone",
+        "Restrained"
+      ],
+      "trait": [
+        {
+          "name": "Cozy Knit",
+          "entries": [
+            "If left undisturbed for 1 minute, a Mitten of Muffled Mischief will begin to knit a small, perfectly fitted scarf for a nearby weapon or item it deems \"in need of warmth.\""
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Hand Clamp",
+          "entries": [
+            "The Mittens clamp onto one of the target's hands, grappling it (escape DC 13). While grappled, the target cannot use that hand to hold items, make unarmed strikes, or perform somatic components for spells. The Mittens move with the grappled hand."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Mittens_of_Muffled_Mischief.png"
+    },
+    {
+      "name": "Sock Wraith",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "T"
+      ],
+      "type": "undead",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 5,
+        "formula": "2d4"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": 30
+      },
+      "str": 1,
+      "dex": 10,
+      "con": 10,
+      "int": 4,
+      "wis": 8,
+      "cha": 12,
+      "cr": "1/8",
+      "passive": 9,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 9"
+      ],
+      "immune": [
+        "Cold",
+        "Necrotic",
+        "Poison"
+      ],
+      "resist": [
+        "Acid",
+        "Fire",
+        "Lightning",
+        "Thunder; Bludgeoning",
+        "Piercing",
+        "and Slashing from nonmagical attacks"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Exhaustion",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+      ],
+      "trait": [
+        {
+          "name": "Incorporeal Movement",
+          "entries": [
+            "The Sock Wraith can move through other creatures and objects as if they were difficult terrain. It takes [[1d10]] force damage if it ends its turn inside an object."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Chilling Latch",
+          "entries": [
+            "The Sock Wraith latches onto the target's head creating a distracting cold spot. Until the end of its next turn, the target has disadvantage on the next attack roll or spellcasting check it makes. The Sock Wraith detaches if the target moves more than 5 feet away from its initial latching point."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Sock_Wraith.png"
+    },
+    {
+      "name": "Sock Wraith",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "T"
+      ],
+      "type": "undead",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 5,
+        "formula": "2d4"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": 30
+      },
+      "str": 1,
+      "dex": 10,
+      "con": 10,
+      "int": 4,
+      "wis": 8,
+      "cha": 12,
+      "cr": "1/8",
+      "passive": 9,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 9"
+      ],
+      "immune": [
+        "Cold",
+        "Necrotic",
+        "Poison"
+      ],
+      "resist": [
+        "Acid",
+        "Fire",
+        "Lightning",
+        "Thunder; Bludgeoning",
+        "Piercing",
+        "and Slashing from nonmagical attacks"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Exhaustion",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+      ],
+      "trait": [
+        {
+          "name": "Incorporeal Movement",
+          "entries": [
+            "The Sock Wraith can move through other creatures and objects as if they were difficult terrain. It takes [[1d10]] force damage if it ends its turn inside an object."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Chilling Latch",
+          "entries": [
+            "The Sock Wraith latches onto the target's head creating a distracting cold spot. Until the end of its next turn, the target has disadvantage on the next attack roll or spellcasting check it makes. The Sock Wraith detaches if the target moves more than 5 feet away from its initial latching point."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Sock_Wraith.png"
+    },
+    {
+      "name": "The Ice Iron",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "S"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 18,
+        "formula": "4d6 + 4"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 12,
+      "int": 3,
+      "wis": 8,
+      "cha": 1,
+      "cr": "1/4",
+      "passive": 9,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 9"
+      ],
+      "immune": [
+        "Poison",
+        "Psychic"
+      ],
+      "conditionImmune": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+      ],
+      "trait": [
+        {
+          "name": "Frost Trail",
+          "entries": [
+            "When The Ice Iron moves, it leaves a trail of ice in its wake. Any 5-foot square it moves through becomes difficult terrain until the start of its next turn."
+          ]
+        },
+        {
+          "name": "\"Press Here\" Symbol",
+          "entries": [
+            "The Ice Iron occasionally leaves a faint, glowing \"press here\" symbol on the floor when it hovers over a spot for more than one round. This has no mechanical effect."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Press Attack",
+          "entries": [
+            "The target must succeed on a DC 10 Dexterity saving throw or be temporarily paralyzed until the end of its next turn. While paralyzed in this way, the target is also restrained and unable to move."
+          ]
+        }
+      ],
+      "tokenUrl": "images/The_Ice_Iron.png"
+    },
+    {
+      "name": "Baron Caskworth, the Short of Temper",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "5d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 14,
+      "con": 10,
+      "int": 6,
+      "wis": 10,
+      "cha": 1012,
+      "cr": "0",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "Common (with posh accent)",
+        "Skeletal Toasts"
+      ],
+      "resist": [
+        "Piercing",
+        "Slashing (non-magical)"
+      ],
+      "vulnerable": [
+        "Bludgeoning"
+      ],
+      "conditionImmune": [
+        "Poison",
+        "Exhaustion"
+      ],
+      "trait": [
+        {
+          "name": "Undead Fortitude",
+          "entries": [
+            "If damage reduces the skeleton to 0 HP, it makes a CON saving throw (DC 5 + damage taken). On a success, it drops to 1 HP instead. Doesn’t work if radiant damage or a critical hit finishes it."
+          ]
+        },
+        {
+          "name": "Drunken Swagger",
+          "entries": [
+            " Roll d6([[d6]]) at start of turn.\n1: falls prone.\n6: advantage on melee attacks this turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Headbutt of Distinction (Recharge 5-6)",
+          "entries": [
+            "Baron lunges forward, attempting a headbutt. One target within 5 ft. must make a DC 13 STR save or be knocked prone and take [[1d6]] bludgeoning damage. The Baron roars, spilling mead in victory."
+          ]
+        },
+        {
+          "name": "Heavy Glass Slam",
+          "entries": [
+            " If the target is prone, this attack deals max damage. [[9]]"
+          ]
+        }
+      ],
+      "tokenUrl": "images/Baron_Caskworth,_the_Short_of_Temper.png"
+    },
+    {
+      "name": "Lord Hopsforth, the Frothy-Fingered",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "5d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 14,
+      "con": 10,
+      "int": 6,
+      "wis": 10,
+      "cha": 1012,
+      "cr": "0",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "Common (with posh accent)",
+        "Skeletal Toasts"
+      ],
+      "resist": [
+        "Piercing",
+        "Slashing (non-magical)"
+      ],
+      "vulnerable": [
+        "Bludgeoning"
+      ],
+      "conditionImmune": [
+        "Poison",
+        "Exhaustion"
+      ],
+      "trait": [
+        {
+          "name": "Undead Fortitude",
+          "entries": [
+            "If damage reduces the skeleton to 0 HP, it makes a CON saving throw (DC 5 + damage taken). On a success, it drops to 1 HP instead. Doesn’t work if radiant damage or a critical hit finishes it."
+          ]
+        },
+        {
+          "name": "Drunken Swagger",
+          "entries": [
+            " Roll d6([[d6]]) at start of turn.\n1: falls prone.\n6: advantage on melee attacks this turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Sudsy Burst (1/short rest)",
+          "entries": [
+            "Throws the contents of his glass in a 10 ft. radius splash. Each creature in the area must succeed on a DC 13 DEX save or fall prone and be soaked (disadvantage on stealth and initiative until cleaned)."
+          ]
+        },
+        {
+          "name": "Foam Swipe",
+          "entries": [
+            "If the target is soaked, they must make a DC 12 CON save or be stunned until the end of their next turn from the absurdity."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Lord_Hopsforth,_the_Frothy-Fingered.png"
+    },
+    {
+      "name": "Viscount Marrow, of the Martini Chalice",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "5d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 14,
+      "con": 10,
+      "int": 6,
+      "wis": 10,
+      "cha": 1012,
+      "cr": "0",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "Common (with posh accent)",
+        "Skeletal Toasts"
+      ],
+      "resist": [
+        "Piercing",
+        "Slashing (non-magical)"
+      ],
+      "vulnerable": [
+        "Bludgeoning"
+      ],
+      "conditionImmune": [
+        "Poison",
+        "Exhaustion"
+      ],
+      "trait": [
+        {
+          "name": "Undead Fortitude",
+          "entries": [
+            "If damage reduces the skeleton to 0 HP, it makes a CON saving throw (DC 5 + damage taken). On a success, it drops to 1 HP instead. Doesn’t work if radiant damage or a critical hit finishes it."
+          ]
+        },
+        {
+          "name": "Drunken Swagger",
+          "entries": [
+            " Roll d6([[d6]]) at start of turn.\n1: falls prone.\n6: advantage on melee attacks this turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Poisonous Wit (Recharge 4-6)",
+          "entries": [
+            "Marrow makes a cutting remark so scathing it hurts. One creature that can hear him within 30 ft. must make a DC 13 WIS save or take [[2d6]] psychic damage and disadvantage on their next Charisma-based check."
+          ]
+        },
+        {
+          "name": "Serpent’s Bite",
+          "entries": [
+            "On a hit, the target must make a DC 12 CON save or become intoxicated (disadvantage on DEX saves) for 1 round."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Viscount_Marrow,_of_the_Martini_Chalice.png"
+    },
+    {
+      "name": "Queen Aethelred",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 1,
+        "formula": "2d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "0",
+      "passive": 10,
+      "tokenUrl": "images/Queen_Aethelred.png"
+    },
+    {
+      "name": "Static Light Swordsman",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any"
+        ]
+      },
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "chain mail, shield"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "6d8 + 12"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 15,
+      "dex": 11,
+      "con": 14,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "1",
+      "passive": 10,
+      "senses": [
+        "passive perception 12"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "radiant"
+      ],
+      "vulnerable": [
+        "necrotic"
+      ],
+      "action": [
+        {
+          "name": "Longsword",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Static_Light_Swordsman.png"
+    },
+    {
+      "name": "Static Light Bowman",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any"
+        ]
+      },
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "studded leather"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "6d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "1",
+      "passive": 10,
+      "senses": [
+        "passive perception 14"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "radiant"
+      ],
+      "vulnerable": [
+        "necrotic"
+      ],
+      "trait": [
+        {
+          "name": "Quick Step",
+          "entries": []
+        }
+      ],
+      "action": [
+        {
+          "name": "Shortbow",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Static_Light_Bowman.png"
+    },
+    {
+      "name": "Static Light Battlecaster",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "female"
+        ]
+      },
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "mage armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 27,
+        "formula": "5d8 + 5"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 8,
+      "dex": 14,
+      "con": 12,
+      "int": 16,
+      "wis": 14,
+      "cha": 10,
+      "cr": "2",
+      "passive": 12,
+      "senses": [
+        "passive perception 12"
+      ],
+      "languages": [
+        "Common",
+        "Celestial"
+      ],
+      "resist": [
+        "radiant",
+        "force"
+      ],
+      "vulnerable": [
+        "necrotic"
+      ],
+      "action": [
+        {
+          "name": "Arcane Bolt",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Static_Light_Battlecaster.png"
+    },
+    {
+      "name": "Static Light Spearman",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any"
+        ]
+      },
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "chain shirt"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "5d8 + 10"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 12,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 8,
+      "cr": "1",
+      "passive": 11,
+      "senses": [
+        "passive perception 12"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "radiant"
+      ],
+      "vulnerable": [
+        "necrotic"
+      ],
+      "action": [
+        {
+          "name": "Spear",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Static_Light_Spearman.png"
+    },
+    {
+      "name": "Static Light Bannerbearer",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any"
+        ]
+      },
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "chainmail"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "7d8 + 14"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "2",
+      "passive": 10,
+      "senses": [
+        "passive perception 12"
+      ],
+      "languages": [
+        "Common",
+        "Celestial"
+      ],
+      "resist": [
+        "radiant"
+      ],
+      "vulnerable": [
+        "necrotic"
+      ],
+      "action": [
+        {
+          "name": "Standard Slam",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Static_Light_Bannerbearer.png"
+    },
+    {
+      "name": "Static Light Healer",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any"
+        ]
+      },
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "leather, divine ward"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "6d8 + 18"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "2",
+      "passive": 10,
+      "senses": [
+        "passive perception 14"
+      ],
+      "languages": [
+        "Common",
+        "Celestial"
+      ],
+      "resist": [
+        "radiant"
+      ],
+      "vulnerable": [
+        "necrotic"
+      ],
+      "action": [
+        {
+          "name": "Mace",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Static_Light_Healer.png"
+    },
+    {
+      "name": "Skeletal Swordsman",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "chain shirt, shield"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "6d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 15,
+      "dex": 11,
+      "con": 14,
+      "int": 6,
+      "wis": 8,
+      "cha": 5,
+      "cr": "1/2",
+      "passive": 9,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "resist": [
+        "necrotic"
+      ],
+      "vulnerable": [
+        "bludgeoning"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "charmed",
+        "frightened",
+        "poisoned"
+      ],
+      "action": [
+        {
+          "name": "Rusty Longsword",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Skeletal_Swordsman.png"
+    },
+    {
+      "name": "Skeletal Bowman",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "worn leather"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 22,
+        "formula": "5d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 16,
+      "con": 10,
+      "int": 6,
+      "wis": 12,
+      "cha": 5,
+      "cr": "1/2",
+      "passive": 11,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 13"
+      ],
+      "languages": [
+        "Understands Common but can’t speak"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "resist": [
+        "necrotic"
+      ],
+      "vulnerable": [
+        "bludgeoning"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "charmed",
+        "frightened",
+        "poisoned"
+      ],
+      "action": [
+        {
+          "name": "Decayed Bow",
+          "entries": [
+            "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Skeletal_Bowman.png"
+    },
+    {
+      "name": "Skeletal Spearman",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "chain shirt, shield"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 22,
+        "formula": "5d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 12,
+      "con": 14,
+      "int": 6,
+      "wis": 10,
+      "cha": 5,
+      "cr": "1/2",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 11"
+      ],
+      "languages": [
+        "Understands Common but can’t speak"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "resist": [
+        "necrotic"
+      ],
+      "vulnerable": [
+        "bludgeoning"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "charmed",
+        "frightened",
+        "poisoned"
+      ],
+      "action": [
+        {
+          "name": "Splintered Spear",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Skeletal_Spearman.png"
+    },
+    {
+      "name": "Skeletal Battlecaster",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "undead",
+        "tags": [
+          "skeletal humanoid"
+        ]
+      },
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "mage armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 27,
+        "formula": "5d8 + 5"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 8,
+      "dex": 14,
+      "con": 12,
+      "int": 16,
+      "wis": 14,
+      "cha": 10,
+      "cr": "2",
+      "passive": 12,
+      "senses": [
+        "passive perception 12"
+      ],
+      "languages": [
+        "Common",
+        "Abyssal"
+      ],
+      "resist": [
+        "necrotic",
+        "force"
+      ],
+      "vulnerable": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "charmed",
+        "frightened",
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Spells",
+          "entries": [
+            "Cantrips: Eldritch Blast, Mage Hand, Chill Touch"
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Chaotic Bolt",
+          "entries": [
+            "On a hit, roll a d4 [[1d4]]. On a 1, the target is pushed 10 feet. On a 2, the target is pulled 10 feet. On a 3, the target is stunned until the end of its next turn. On a 4, the target takes an additional [[1d6]] necrotic damage."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Skeletal_Battlecaster.png"
+    },
+    {
+      "name": "Skeletal Bannerbearer",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "undead",
+        "tags": [
+          "skeletal humanoid"
+        ]
+      },
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "chainmail"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 42,
+        "formula": "7d8 + 14"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 10,
+      "con": 14,
+      "int": 10,
+      "wis": 10,
+      "cha": 16,
+      "cr": "2",
+      "passive": 10,
+      "senses": [
+        "passive perception 12"
+      ],
+      "languages": [
+        "Common",
+        "Abyssal"
+      ],
+      "resist": [
+        "necrotic"
+      ],
+      "vulnerable": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "charmed",
+        "frightened",
+        "poisoned",
+        "charmed"
+      ],
+      "action": [
+        {
+          "name": "Chaos Slam",
+          "entries": [
+            "On a hit, roll a d4 [[1d4]]. On a 1-2, the target's speed is reduced by 10 ft. until the start of its next turn. On a 3-4, the target makes its next attack with disadvantage."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Skeletal_Bannerbearer.png"
+    },
+    {
+      "name": "Skeletal Healer",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "undead",
+        "tags": [
+          "skeletal humanoid"
+        ]
+      },
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "leather, chaotic ward"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 45,
+        "formula": "6d8 + 18"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 16,
+      "int": 12,
+      "wis": 18,
+      "cha": 14,
+      "cr": "2",
+      "passive": 14,
+      "senses": [
+        "passive perception 14"
+      ],
+      "languages": [
+        "Common",
+        "Abyssal"
+      ],
+      "resist": [
+        "necrotic"
+      ],
+      "vulnerable": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "charmed",
+        "frightened",
+        "poisoned"
+      ],
+      "action": [
+        {
+          "name": "Corrupting Mace",
+          "entries": [
+            "The target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Skeletal_Healer.png"
+    },
+    {
+      "name": "Grrarrg the Soft-Fisted",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid (bugbear",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor, thick bones"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 98,
+        "formula": "14d10 + 28"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 19,
+      "dex": 14,
+      "con": 18,
+      "int": 8,
+      "wis": 10,
+      "cha": 8,
+      "cr": "6",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "Common",
+        "Goblin (badly)",
+        "Skeletal Grunts"
+      ],
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "and slashing while raging"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened"
+      ],
+      "trait": [
+        {
+          "name": "Unarmed Fighting Style",
+          "entries": [
+            "Unarmed strikes deal 1d10 bludgeoning when not wielding weapons or a shield. Grappled creatures take 1d4 damage at start of Grrarrg’s turn."
+          ]
+        },
+        {
+          "name": "Long-Limbed",
+          "entries": [
+            "Adds +5 ft. reach to melee weapon attacks."
+          ]
+        },
+        {
+          "name": "Beastwhisperer",
+          "entries": [
+            "Grrarrg can magically communicate simple ideas, emotions, and commands with Beasts. He has advantage on Charisma (Persuasion) and Wisdom (Animal Handling) checks made to influence Beasts, and can attempt to calm or direct them as a bonus action."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Soft Fist Slam",
+          "entries": [
+            "On a hit, target must succeed on a DC 15 Strength saving throw or be knocked prone. Critical hit also stuns for 1 round."
+          ]
+        },
+        {
+          "name": "Grrarrg Smash (Recharge 5–6)",
+          "entries": [
+            "Grrarrg slams the ground, hitting all adjacent creatures. Each creature must also succeed on a DC 15 Strength saving throw or be pushed 10 ft."
+          ]
+        },
+        {
+          "name": "Softball Launch (Recharge 4–6)",
+          "entries": [
+            "Grrarrg hurls a creature within 5 feet (willing, grappled, or who fails a contested Athletics vs Acrobatics/Athletics check). He throws them up to 30 feet toward a point or creature he can see. If aimed at a creature, the target must succeed on a DC 15 Dexterity saving throw or take [[2d6]] bludgeoning damage and be knocked prone (half damage and no prone on success). The thrown creature makes a DC 13 Dexterity saving throw: on a fail, it lands prone; on a success, it sticks the landing. The thrown creature does not take damage unless they hit a hazard (DM’s discretion)."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Smiles Say Duck",
+          "entries": []
+        },
+        {
+          "name": "Smiles Say Duck",
+          "entries": [
+            "When hit by an attack, Grrarrg reduces the damage by [[1d12 + 4]] (Stone’s Endurance)"
+          ]
+        }
+      ],
+      "tokenUrl": "images/Grrarrg_the_Soft-Fisted.png"
+    },
+    {
+      "name": "Gurglor the Moist",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "aquatic chaos-being"
+        ]
+      },
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "scale mail, wet hide"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 52,
+        "formula": "7d8 + 21"
+      },
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "str": 14,
+      "dex": 12,
+      "con": 16,
+      "int": 10,
+      "wis": 14,
+      "cha": 8,
+      "cr": "3",
+      "passive": 12,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 12"
+      ],
+      "languages": [
+        "Common",
+        "Deep Speech",
+        "Bubblegurgle"
+      ],
+      "resist": [
+        "cold",
+        "lightning"
+      ],
+      "conditionImmune": [
+        "prone (while in water)",
+        "grappled (slippery skin)"
+      ],
+      "trait": [
+        {
+          "name": "Amphibious",
+          "entries": [
+            "Gurglor can breathe air and water."
+          ]
+        },
+        {
+          "name": "Water Weirdness",
+          "entries": [
+            "Once per short rest, Gurglor can cast Fog Cloud or Grease without material components."
+          ]
+        },
+        {
+          "name": "Gurgling Tongue",
+          "entries": [
+            "Gurglor can communicate telepathically with Beasts and Monstrosities that have a swimming speed within 60 feet. He has advantage on Charisma (Persuasion) and Wisdom (Animal Handling) checks to influence aquatic creatures, and can issue simple one-word commands (e.g., ‘guard’, ‘flee’, ‘chomp’) as a bonus action."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Moist Trident",
+          "entries": [
+            "If Gurglor is standing in water, he deals an additional [[1d4]] lightning damage."
+          ]
+        },
+        {
+          "name": "Squirt Jet (Recharge 5–6)",
+          "entries": [
+            "Creatures in the line must succeed or take [[2d6]] bludgeoning and be pushed 10 ft away."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Moist Counter",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Gurglor_the_Moist.png"
+    },
+    {
+      "name": "Sir Clatterton",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 10,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 13,
+        "formula": "2d8+4"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 15,
+      "int": 11,
+      "wis": 10,
+      "cha": 8,
+      "cr": "1/4",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "vulnerable": [
+        "bludgeoning"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "frightened",
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Skeletal Demeanor",
+          "entries": [
+            "Sir Clatterton is a well-dressed skeletal butler, missing his left arm. He diligently carries a silver platter filled with questionable, often glowing, refreshments. A monocle is perched precariously in his right eye socket, giving him an air of macabre sophistication."
+          ]
+        },
+        {
+          "name": "Quoth the Raven",
+          "entries": [
+            "Sir Clatterton often interjects into conversations with dramatic and slightly ominous pronouncements, typically prefacing them with 'Quoth the Raven...' followed by a relevant (or eerily irrelevant) snippet from Edgar Allan Poe's famous poem, or a similar melancholic verse. For example: 'Quoth the Raven, Nevermore!'."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Platter Strike",
+          "entries": [
+            "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Serve Questionable Refreshments",
+          "entries": [
+            "Sir Clatterton offers a refreshment from his silver platter. The liquid shimmers with an unsettling glow and smells faintly of formaldehyde and old socks. Consuming it might lead to interesting (and probably unpleasant) side effects. And heal for [[1d8+8]]."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Defensive Monocle Adjust",
+          "entries": [
+            "When attacked, Sir Clatterton can use his reaction to dramatically adjust his monocle, potentially distracting the attacker. The attack roll is made with disadvantage. This reaction can be used once per round."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Sir_Clatterton.png"
+    },
+    {
+      "name": "Miss Deme Anor",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid (human",
+      "alignment": [
+        "S"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "mage armor, shadowweave garb"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 40,
+        "formula": "8d6 + 16"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 8,
+      "dex": 14,
+      "con": 14,
+      "int": 12,
+      "wis": 13,
+      "cha": 18,
+      "cr": "4",
+      "passive": 11,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 11"
+      ],
+      "languages": [
+        "Common",
+        "Infernal",
+        "Elvish"
+      ],
+      "resist": [
+        "necrotic",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed (while in dim light or darkness)"
+      ],
+      "trait": [
+        {
+          "name": "Sorcery Surge",
+          "entries": [
+            "Once per day, if reduced to half HP or less, Miss Deme regains one expended spell slot."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "entries": [
+            "Miss Deme’s spellcasting ability is Charisma. She can innately cast the following spells:\nCantrips (at will): Chill Touch, Minor Illusion, Prestidigitation\n1st level (4 slots): Mage Armor, Shield, Witch Bolt\n2nd level (3 slots): Mirror Image, Misty Step\n3rd level (2 slots): Counterspell, Shadow Blade"
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Shadowbolt",
+          "entries": [
+            "A searing beam of shadow energy. In dim light or darkness, the target takes an additional 1d6 psychic damage."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Shadow Cloak",
+          "entries": [
+            "When targeted by an attack in dim light or darkness, Miss Deme imposes disadvantage as shadows surge around her."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Miss_Deme_Anor.png"
+    },
+    {
+      "name": "Twice-Wrong",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "fused human minds"
+        ]
+      },
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "artificer tinkering, reinforced goggles, half-invented nonsense"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 65,
+        "formula": "10d8+20"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 14,
+      "int": 18,
+      "wis": 12,
+      "cha": 8,
+      "cr": "4",
+      "passive": 13,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 13"
+      ],
+      "languages": [
+        "Common",
+        "Gnomish",
+        "Undercommon",
+        "Smilesian (arguably)"
+      ],
+      "resist": [
+        "lightning",
+        "psychic (one head absorbs most of it)"
+      ],
+      "conditionImmune": [
+        "charmed (the other head won't let him fall for it)"
+      ],
+      "trait": [
+        {
+          "name": "Split Focus",
+          "entries": [
+            "Twice-Wrong rolls initiative twice and takes the lower result. Each of his heads may use a bonus action on his turn, but only one can concentrate on a spell or item at a time. If he’s affected by confusion or similar effects, roll for each head separately."
+          ]
+        },
+        {
+          "name": "Chaotic Genius",
+          "entries": [
+            "Whenever Twice-Wrong casts a spell, roll a d6. On a 1, a harmless but dramatic malfunction occurs (e.g., steam burst, confetti cannon, blinding spark). On a 6, the spell surges with unexpected potency, dealing maximum damage or doubling its range/duration (DM’s choice)."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Lightning Spanner",
+          "entries": [
+            "A metal wrench that surges with unstable lightning. On a natural 20, it arcs to a second target within 10 feet for 1d6 lightning damage."
+          ]
+        },
+        {
+          "name": "Overcharged Bolt (Recharge 5–6)",
+          "entries": [
+            "Fires an unstable projectile from his shoulder-mounted spring-cannon. Ranged Spell Attack +7, range 90 ft., one target. Hit: 4d6 force damage and the target must succeed a DC 14 Strength saving throw or be pushed 10 ft."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Self-Sabotage",
+          "entries": [
+            "If Twice-Wrong takes damage from a spell or trap, he can shout blame at himself. The attacker must make a DC 13 Wisdom save or be distracted by the argument and suffer disadvantage on their next attack roll."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Twice-Wrong.png"
+    },
+    {
+      "name": "Tophat 1",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "magically reinforced silk"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 18,
+        "formula": "4d6+4"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 30
+      },
+      "str": 1,
+      "dex": 18,
+      "con": 12,
+      "int": 6,
+      "wis": 10,
+      "cha": 14,
+      "cr": "1/2",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "understands Common but cannot speak"
+      ],
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "resist": [
+        "bludgeoning",
+        "piercing"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened",
+        "grappled"
+      ],
+      "action": [
+        {
+          "name": "Hat Slap",
+          "entries": [
+            "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) force damage. The target must succeed on a DC 12 Constitution saving throw or have disadvantage on their next attack roll."
+          ]
+        },
+        {
+          "name": "Puff of Pomposity (Recharge 5–6)",
+          "entries": [
+            "The hat bursts in a glittery puff. Each creature within 10 feet must succeed on a DC 12 Charisma saving throw or be overwhelmed by dramatic emotion, speaking only in rhymes for 1 minute."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Tophat_1.png"
+    },
+    {
+      "name": "Tophat 2",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "magically reinforced silk"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 13,
+        "formula": "4d6+4"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 30
+      },
+      "str": 1,
+      "dex": 18,
+      "con": 12,
+      "int": 6,
+      "wis": 10,
+      "cha": 14,
+      "cr": "1/2",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "understands Common but cannot speak"
+      ],
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "resist": [
+        "bludgeoning",
+        "piercing"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened",
+        "grappled"
+      ],
+      "action": [
+        {
+          "name": "Hat Slap",
+          "entries": [
+            "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) force damage. The target must succeed on a DC 12 Constitution saving throw or have disadvantage on their next attack roll."
+          ]
+        },
+        {
+          "name": "Puff of Pomposity (Recharge 5–6)",
+          "entries": [
+            "The hat bursts in a glittery puff. Each creature within 10 feet must succeed on a DC 12 Charisma saving throw or be overwhelmed by dramatic emotion, speaking only in rhymes for 1 minute."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Tophat_2.png"
+    },
+    {
+      "name": "Tophat 3",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "magically reinforced silk"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 17,
+        "formula": "4d6+4"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 30
+      },
+      "str": 1,
+      "dex": 18,
+      "con": 12,
+      "int": 6,
+      "wis": 10,
+      "cha": 14,
+      "cr": "1/2",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "understands Common but cannot speak"
+      ],
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "resist": [
+        "bludgeoning",
+        "piercing"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened",
+        "grappled"
+      ],
+      "action": [
+        {
+          "name": "Hat Slap",
+          "entries": [
+            "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) force damage. The target must succeed on a DC 12 Constitution saving throw or have disadvantage on their next attack roll."
+          ]
+        },
+        {
+          "name": "Puff of Pomposity (Recharge 5–6)",
+          "entries": [
+            "The hat bursts in a glittery puff. Each creature within 10 feet must succeed on a DC 12 Charisma saving throw or be overwhelmed by dramatic emotion, speaking only in rhymes for 1 minute."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Tophat_3.png"
+    },
+    {
+      "name": "Tophat 4",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "magically reinforced silk"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 21,
+        "formula": "4d6+4"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 30
+      },
+      "str": 1,
+      "dex": 18,
+      "con": 12,
+      "int": 6,
+      "wis": 10,
+      "cha": 14,
+      "cr": "1/2",
+      "passive": 10,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 10"
+      ],
+      "languages": [
+        "understands Common but cannot speak"
+      ],
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "resist": [
+        "bludgeoning",
+        "piercing"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened",
+        "grappled"
+      ],
+      "action": [
+        {
+          "name": "Hat Slap",
+          "entries": [
+            "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) force damage. The target must succeed on a DC 12 Constitution saving throw or have disadvantage on their next attack roll."
+          ]
+        },
+        {
+          "name": "Puff of Pomposity (Recharge 5–6)",
+          "entries": [
+            "The hat bursts in a glittery puff. Each creature within 10 feet must succeed on a DC 12 Charisma saving throw or be overwhelmed by dramatic emotion, speaking only in rhymes for 1 minute."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Tophat_4.png"
+    },
+    {
+      "name": "Sir Splintwood",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "plant",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural bark armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 45,
+        "formula": "6d10+12"
+      },
+      "speed": {
+        "walk": 20
+      },
+      "str": 16,
+      "dex": 8,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 14,
+      "cr": "1",
+      "passive": 11,
+      "senses": [
+        "tremorsense 30 ft.",
+        "passive perception 11"
+      ],
+      "languages": [
+        "Common",
+        "Sylvan",
+        "Barks in short yaps"
+      ],
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened"
+      ],
+      "action": [
+        {
+          "name": "Knightly Bark",
+          "entries": [
+            "Sir Splintwood puffs out his pine chest and delivers a series of formal, yapping barks toward the intruders."
+          ]
+        },
+        {
+          "name": "Honor Duel (Recharge 6)",
+          "entries": [
+            "Issues a challenge to a single creature. If they accept and perform, he grants them +1 to their next Charisma check. If denied, he pelts them with a pinecone for 1d4 bludgeoning (DC 10 Dex save to dodge)."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Sir_Splintwood.png"
+    },
+    {
+      "name": "Miss Twigatha",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "plant",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "layered moss and bark"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 40,
+        "formula": "5d10+10"
+      },
+      "speed": {
+        "walk": 0
+      },
+      "str": 10,
+      "dex": 8,
+      "con": 14,
+      "int": 12,
+      "wis": 14,
+      "cha": 16,
+      "cr": "1/2",
+      "passive": 12,
+      "senses": [
+        "blindsight 10 ft.",
+        "passive perception 14"
+      ],
+      "languages": [
+        "Common",
+        "Sylvan",
+        "Barks in high-pitched scolds"
+      ],
+      "resist": [
+        "cold"
+      ],
+      "conditionImmune": [
+        "prone"
+      ],
+      "action": [
+        {
+          "name": "Scolding Bark",
+          "entries": [
+            "Twigatha lets out a piercing yap followed by a tirade about etiquette and posture."
+          ]
+        },
+        {
+          "name": "Pollen Puff (Recharge 5-6)",
+          "entries": [
+            "Releases a cloud of itchy pollen. Creatures in 10 ft. must make a DC 12 Con save or sneeze uncontrollably for 1 minute (disadvantage on Stealth checks)."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Miss_Twigatha.png"
+    },
+    {
+      "name": "Chucklewood",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "plant",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "bendy bark"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 38,
+        "formula": "6d8+12"
+      },
+      "speed": {
+        "walk": 10
+      },
+      "str": 12,
+      "dex": 12,
+      "con": 14,
+      "int": 8,
+      "wis": 10,
+      "cha": 16,
+      "cr": "1/2",
+      "passive": 10,
+      "senses": [
+        "passive perception 10"
+      ],
+      "languages": [
+        "Common",
+        "Barks in musical yips"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened"
+      ],
+      "action": [
+        {
+          "name": "Groovy Bark",
+          "entries": [
+            "Chucklewood emits a rhythmic series of woofs and tail-wagging noises that somehow feel musical."
+          ]
+        },
+        {
+          "name": "Fungal Nut Toss",
+          "entries": [
+            "Chucks a glowing nut that creates a Minor Illusion when cracked. Single use per encounter."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Chucklewood.png"
+    },
+    {
+      "name": "Gramble the Gnarled",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "plant",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "dense knotted bark"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 52,
+        "formula": "7d10+14"
+      },
+      "speed": {
+        "walk": 0
+      },
+      "str": 14,
+      "dex": 6,
+      "con": 16,
+      "int": 13,
+      "wis": 14,
+      "cha": 10,
+      "cr": "1",
+      "passive": 12,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 12"
+      ],
+      "languages": [
+        "Common",
+        "Deep Barks in whispers"
+      ],
+      "resist": [
+        "necrotic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "stunned"
+      ],
+      "action": [
+        {
+          "name": "Whisper Bark",
+          "entries": [
+            "Gramble releases a low, guttural bark like a foghorn. Anyone hearing it must make a DC 11 Wis save or feel mildly unnerved (flavor effect)."
+          ]
+        },
+        {
+          "name": "Unbirth-Day Blessing",
+          "entries": [
+            "Selects a creature and grants them the ability to re-roll a failed death save once before their next long rest."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Gramble_the_Gnarled.png"
+    },
+    {
+      "name": "Frog",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "T"
+      ],
+      "type": "beast",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        11
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "1d4-1"
+      },
+      "speed": {
+        "walk": 20,
+        "swim": 20
+      },
+      "str": 1,
+      "dex": 13,
+      "con": 8,
+      "int": 1,
+      "wis": 8,
+      "cha": 3,
+      "cr": "0",
+      "passive": 9,
+      "senses": [
+        "darkvision 30 ft.",
+        "passive perception 11"
+      ],
+      "trait": [
+        {
+          "name": "Amphibious",
+          "entries": [
+            "The frog can breathe air and water"
+          ]
+        },
+        {
+          "name": "Standing Leap",
+          "entries": [
+            "The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Frog.png"
+    },
+    {
+      "name": "The Clucking Chaos",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "feathered hide"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 130,
+        "formula": "15d10+45"
+      },
+      "speed": {
+        "walk": 40,
+        "fly": 20
+      },
+      "str": 18,
+      "dex": 14,
+      "con": 17,
+      "int": 8,
+      "wis": 12,
+      "cha": 15,
+      "cr": "6",
+      "passive": 14,
+      "senses": [
+        "darkvision 60 ft.",
+        "passive perception 14"
+      ],
+      "languages": [
+        "Understands Deep Cluck but cannot speak"
+      ],
+      "resist": [
+        "psychic",
+        "thunder; bludgeoning",
+        "piercing",
+        "and slashing from nonmagical attacks"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened"
+      ],
+      "trait": [
+        {
+          "name": "Unfathomable Cluck",
+          "entries": [
+            "At the start of each of its turns, the Clucking Chaos emits a maddening cluck. Each creature within 60 feet that can hear it must succeed on a DC 14 Wisdom saving throw or suffer a random short-term madness for 1 minute (DMG p.259). Creatures that succeed are immune for 24 hours."
+          ]
+        },
+        {
+          "name": "Eldritch Eggshell",
+          "entries": [
+            "When reduced to 0 HP, the Clucking Chaos explodes in a blast of yolk and static. All creatures within 20 feet must make a DC 14 Dexterity saving throw, taking 21 (6d6) force damage on a failed save, or half as much on a success."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Clucking Chaos makes two beak attacks and may use Swallow if available."
+          ]
+        },
+        {
+          "name": "Beak",
+          "entries": [
+            "The chicken lashes out with its massive beak."
+          ]
+        },
+        {
+          "name": "Swallow (Recharge 5–6)",
+          "entries": [
+            "The Clucking Chaos attempts to swallow a creature within 5 ft. that has half HP or less. The target must succeed on a DC 14 Strength saving throw or be swallowed whole. Unconscious or dead creatures automatically fail. Swallowed targets are encased in an egg, stunned, and take no damage. They may attempt a DC 12 Strength (Athletics) check at the end of their turn to break free. On success, they are ejected prone with the effects of a long rest."
+          ]
+        },
+        {
+          "name": "Maddening Echo",
+          "entries": []
+        },
+        {
+          "name": "Eggbound Terrain",
+          "entries": []
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Wing Buffet",
+          "entries": [
+            "When hit by a melee attack, the Clucking Chaos can flap its wings to create a gust of wind. The attacker must succeed on a DC 12 Strength saving throw or be pushed 10 feet away."
+          ]
+        }
+      ],
+      "tokenUrl": "images/The_Clucking_Chaos.png"
+    },
+    {
+      "name": "Arcane Lightning Cannon",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "device",
+        "tags": [
+          "weapon"
+        ]
+      },
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "heavy plating (its own durability)"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 50,
+        "formula": "7d8+19"
+      },
+      "speed": {
+        "walk": 0
+      },
+      "str": 18,
+      "dex": 6,
+      "con": 16,
+      "int": 10,
+      "wis": 10,
+      "cha": 14,
+      "cr": "2",
+      "passive": 10,
+      "senses": [
+        "-"
+      ],
+      "languages": [
+        "-"
+      ],
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "vulnerable": [
+        "water"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened",
+        "prone"
+      ],
+      "trait": [
+        {
+          "name": "Rarity",
+          "entries": [
+            "Uncommon."
+          ]
+        },
+        {
+          "name": "Temperamental Discharge",
+          "entries": [
+            "After Bolt's Lightning Blast action, roll a [[1d4]]. On a 1, Bolt overloads and cannot be used again for 1 minute (its internal mechanisms whine pitifully and sparks fly harmlessly)."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Lightning Blast (Action)",
+          "entries": [
+            "You can use your action to fire a bolt of lightning at a target within 60 feet. Make a ranged spell attack using your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (your choice). On a hit, the target takes 2d8 lightning damage. Bolt prefers targets that look particularly 'zap-able'."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Arcane_Lightning_Cannon.png"
+    },
+    {
+      "name": "Shield of Illusory Protection",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "device",
+        "tags": [
+          "sentient shield"
+        ]
+      },
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "its own durability (provides +2 ac to wielder)"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 35,
+        "formula": "8d6+8"
+      },
+      "speed": {
+        "walk": 0
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 12,
+      "int": 14,
+      "wis": 16,
+      "cha": 18,
+      "cr": "1/2",
+      "passive": 13,
+      "senses": [
+        "blindsight 60 ft.",
+        "passive perception 13"
+      ],
+      "languages": [
+        "Common (via shimmering patterns and subtle vocalizations)",
+        "plus one language of its wielder's choice"
+      ],
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "deafened",
+        "prone"
+      ],
+      "trait": [
+        {
+          "name": "Rarity",
+          "entries": [
+            "Uncommon."
+          ]
+        },
+        {
+          "name": "Sentient Shield",
+          "entries": [
+            "Glimmer cannot move on its own. It communicates telepathically with its wielder, often offering reassuring whispers or dramatic pronouncements about its protective capabilities. It enjoys being polished."
+          ]
+        },
+        {
+          "name": "AC Bonus",
+          "entries": [
+            "While wielding this shield, you gain a +2 bonus to AC (as a normal shield)."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Shimmering Defense (Bonus Action)",
+          "entries": [
+            "As a bonus action, you can use Glimmer to create a shimmering illusion of yourself next to you. For the next round, any attack roll against you has disadvantage. During this time, you cannot make attacks (as Glimmer demands your full concentration to maintain the dazzling display). This effect lasts until the start of your next turn. Can be used once per short or long rest. Glimmer finds this highly amusing."
+          ]
+        }
+      ],
+      "tokenUrl": "images/Shield_of_Illusory_Protection.png"
+    },
+    {
+      "name": "The Flatulence Grenades (x3)",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "device",
+        "tags": [
+          "sentient consumable"
+        ]
+      },
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 8,
+          "from": [
+            "fragile casing"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "3d6"
+      },
+      "speed": {
+        "walk": 10
+      },
+      "str": 6,
+      "dex": 6,
+      "con": 10,
+      "int": 4,
+      "wis": 8,
+      "cha": 12,
+      "cr": "1/8",
+      "passive": 9,
+      "senses": [
+        "blindsight 10 ft.",
+        "passive perception 9"
+      ],
+      "languages": [
+        "Faint",
+        "high-pitched squeaks and giggles"
+      ],
+      "immune": [
+        "none"
+      ],
+      "conditionImmune": [
+        "grappled",
+        "restrained"
+      ],
+      "trait": [
+        {
+          "name": "Rarity",
+          "entries": [
+            "Common (Consumable)."
+          ]
+        },
+        {
+          "name": "Collective Sentience",
+          "entries": [
+            "Each grenade is a distinct entity but shares a mischievous, chaotic mind with its brethren. They communicate through faint, high-pitched giggles and flatulent sounds. They have a perverse joy in causing disruption."
+          ]
+        },
+        {
+          "name": "Fragile Shell",
+          "entries": [
+            "If a grenade takes any damage while not thrown, its AC is considered 5 for that attack, and it might prematurely detonate (DM's discretion)."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Concussive Flatulence (Action to throw)",
+          "entries": [
+            "One grenade can be lit and thrown up to 30 feet. Each creature in a 10-foot radius sphere centered on the impact point must make a DC 13 Constitution saving throw. On a failed save, a creature takes 7 (2d6) thunder damage and is pushed 10 feet away from the center. On a successful save, a creature takes half as much damage and isn't pushed. The nauseating smell lingers for 1d4 rounds in the area; any creature that starts its turn in the area must make a DC 10 Constitution saving throw or have disadvantage on Wisdom (Perception) checks relying on smell until the start of its next turn."
+          ]
+        }
+      ],
+      "tokenUrl": "images/The_Flatulence_Grenades_(x3).png"
+    },
+    {
+      "name": "Brown Bear",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": "beast",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 11,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "4d10+12"
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 30
+      },
+      "str": 19,
+      "dex": 10,
+      "con": 16,
+      "int": 10,
+      "wis": 17,
+      "cha": 8,
+      "cr": "1",
+      "passive": 13,
+      "senses": [
+        "passive perception 13"
+      ],
+      "trait": [
+        {
+          "name": "Keen Smell",
+          "entries": [
+            "The bear has advantage on Wisdom (Perception) checks that rely on smell."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The bear makes two attacks: one with its bite and one with its claws."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": []
+        },
+        {
+          "name": "Claws",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Brown_Bear.png"
+    },
+    {
+      "name": "Dire Wolf",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": "beast",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "5d10+10"
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 17,
+      "dex": 15,
+      "con": 15,
+      "int": 3,
+      "wis": 12,
+      "cha": 7,
+      "cr": "1",
+      "passive": 11,
+      "senses": [
+        "passive perception 13"
+      ],
+      "trait": [
+        {
+          "name": "Keen Hearing and Smell",
+          "entries": [
+            "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+          ]
+        },
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "entries": [
+            "If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone"
+          ]
+        }
+      ],
+      "tokenUrl": "images/Dire_Wolf.png"
+    },
+    {
+      "name": "Smiles posed",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "2d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "0",
+      "passive": 10,
+      "tokenUrl": "images/Smiles_posed.png"
+    },
+    {
+      "name": "Mourning Glory",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": "beast",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        16
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "3d10+3"
+      },
+      "speed": {
+        "walk": 60
+      },
+      "str": 18,
+      "dex": 12,
+      "con": 13,
+      "int": 6,
+      "wis": 12,
+      "cha": 7,
+      "cr": "1/2",
+      "passive": 11,
+      "senses": [
+        "passive perception 11"
+      ],
+      "trait": [
+        {
+          "name": "Trampling Charge",
+          "entries": [
+            "If the horse moves at least 20 ft. straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the horse can make another attack with its hooves against it as a bonus action."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Hooves",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Mourning_Glory.png"
+    },
+    {
+      "name": "Commoner",
+      "source": "Roll20Import",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "or small humanoid",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 10,
+        "formula": "1d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "cr": "0",
+      "passive": 10,
+      "senses": [
+        "passive perception 10"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "trait": [
+        {
+          "name": "Training",
+          "entries": [
+            "The commoner has proficiency in one skill of the DM's choice and has Advantage whenever it makes an ability check using that skill."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Club",
+          "entries": []
+        }
+      ],
+      "tokenUrl": "images/Commoner.png"
+    }
+  ]
+}
